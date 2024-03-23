@@ -1,0 +1,81 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+/* Custom CSS for Slideshow */
+
+/* header */
+header {
+  height: 8vh;
+  width: 100%;
+  background-color: #526534;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.address,
+.number,
+.email {
+  display: inline-block;
+  color: #fff;
+}
+
+.address {
+  width: 35%;
+  font-size: 14px;
+}
+
+.number,
+.email {
+  width: 25%;
+  font-size: 15px;
+}
+
+.address,
+.email {
+  margin-top: 20px; 
+}
+.email {
+  margin-right: 35px; 
+  font-size: 14px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 999px) {
+  .number, .email, .address{
+    font-size: 9px;
+    margin-top: 5px;
+  }
+
+  header{
+    height: 8vh;
+  }
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+ }
+
+.logo img {
+  max-width: 33%;
+  height: auto;
+}
+
+/* nav section */
+
+nav {
+
+  background-color: #526534;
+  width: 100%;
+  
+}
+
+.menu {
+  background-color: #526534; /* Set background color to #526534 */
+  height: 400px; /* Set the height to your desired longer height */
+}
+
+
+

@@ -1,0 +1,161 @@
+.home-section{
+  min-height: 40vh;
+  background-image: url('img/12.JPG');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  width: 100%;
+ 
+}
+  
+  .home-section h1{
+    text-align: center;
+    padding-top: 180px;
+    color: #fff;
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+
+  .location{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; 
+    padding: 20px; 
+    padding-bottom: 2vh;
+  }
+  .textloc{
+    width: 50%;
+    display: inline-block;
+  }
+  .textloc h2{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+  }
+  .textloc p{
+    font-size: 1.6rem;
+    font-weight: lighter;
+  
+  }
+  .textloc h3{
+    color: #526534;
+    font-size:2rem;
+      padding-top: 100px;
+  }
+  .imageloc{
+    width: 50%;
+  display: inline-block;
+  }
+  .imageloc img{
+    margin-left: 80px;
+    height: auto;
+    max-width: 70%;
+    padding-top: 20px;
+  }
+  @media screen and (min-width: 200px) and (max-width: 599px){
+    .textloc{
+      width: 100%;
+    }
+    .textloc h2{
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      font-weight: lighter;
+    }
+    .textloc p{
+      font-size: 1rem;
+      font-weight: lighter;
+  
+    }
+    .textloc h3{
+      color: #526534;
+      font-size: 1.2rem;
+        padding-top: 20px;
+    }
+    .imageloc{
+      width: 100%;
+    }
+    .imageloc img{
+      height: auto;
+      max-width: 40%;
+    }
+  }
+  @media screen and (min-width: 600px) and (max-width: 1200px){
+    .textloc{
+    width: 100%;
+    }
+    .textloc h2{
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      font-weight: lighter;
+    }
+    .textloc p{
+      font-size: 1.4rem;
+      font-weight: lighter;
+  
+    }
+    .textloc h3{
+      color: #526534;
+      font-size:1.5rem;
+        padding-top: 40px;
+    }
+    .imageloc{
+     width: 100%;
+    }
+    .imageloc img{
+      margin-left: 170px;
+      height: auto;
+      max-width: 40%;
+      align-items: center;
+    }
+  }
+  
+  
+  
+  /*map section*/
+  .map-section{
+    background-color: #526534;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; 
+    padding: 20px; 
+    padding-bottom: 2vh;
+  }
+  .map-section h1{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 2.8rem;
+    text-align: center;
+  }
+  iframe{
+    width: 100%;
+    height: 400px;
+  }
+  @media screen and (max-width: 767px){
+    .map-section h1{
+      color: #fff;
+      text-transform: capitalize;
+      font-size: 2.2rem;
+      text-align: center;
+    }
+    .map-section{
+      background-color: #526534;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1200px){
+    .map-section h1{
+      color: #fff;
+      text-transform: capitalize;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    .map-section{
+      background-color: #526534;
+     
+    }
+    iframe{
+      width: 90%;
+      height: 420px;
+      margin-left: 50px;
+    }
+  }
